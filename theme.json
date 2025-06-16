@@ -1,0 +1,114 @@
+{
+    "defaults": {
+        "colours": {
+            "normal_bg": "#1a1a2e",
+            "hovered_bg": "#16213e",
+            "disabled_bg": "#0f0f1e",
+            "selected_bg": "#0f3460",
+            "active_bg": "#e94560",
+            "dark_bg": "#0a0a15",
+            "normal_text": "#eaeaea",
+            "hovered_text": "#ffffff",
+            "disabled_text": "#666666",
+            "selected_text": "#ffffff",
+            "active_text": "#ffffff",
+            "normal_border": "#303050",
+            "hovered_border": "#404070",
+            "disabled_border": "#202030",
+            "selected_border": "#5080ff",
+            "active_border": "#ff6080",
+            "link_text": "#40a0ff",
+            "link_hover": "#60c0ff",
+            "link_selected": "#80e0ff",
+            "text_shadow": "#000000",
+            "filled_bar": "#40ff80",
+            "unfilled_bar": "#202040"
+        },
+        "font": {
+            "name": "Microsoft JhengHei",
+            "size": "16",
+            "bold": "0",
+            "italic": "0"
+        },
+        "misc": {
+            "shape": "rounded_rectangle",
+            "shape_corner_radius": "8",
+            "border_width": "2",
+            "shadow_width": "2",
+            "text_horiz_alignment": "center",
+            "text_vert_alignment": "center",
+            "text_shadow_size": "1",
+            "text_shadow_offset": "1,1",
+            "tool_tip_delay": "0.5"
+        }
+    },
+    "button": {
+        "colours": {
+            "normal_bg": "#25274d",
+            "hovered_bg": "#464866",
+            "disabled_bg": "#15152d",
+            "selected_bg": "#2e9cca",
+            "active_bg": "#29648a"
+        },
+        "misc": {
+            "border_width": "2",
+            "shadow_width": "3",
+            "tool_tip_delay": "0.5",
+            "text_horiz_alignment": "center",
+            "text_vert_alignment": "center"
+        }
+    },
+    "horizontal_slider": {
+        "colours": {
+            "normal_bg": "#25274d",
+            "hovered_bg": "#464866",
+            "disabled_bg": "#15152d",
+            "selected_bg": "#2e9cca",
+            "active_bg": "#29648a",
+            "dark_bg": "#15152d",
+            "normal_border": "#404060",
+            "sliding_button_normal": "#40a0ff",
+            "sliding_button_hover": "#60c0ff",
+            "sliding_button_selected": "#80e0ff",
+            "sliding_button_disabled": "#303050"
+        },
+        "misc": {
+            "shape": "rounded_rectangle",
+            "shape_corner_radius": "10",
+            "border_width": "2",
+            "shadow_width": "2",
+            "sliding_button_width": "20",
+            "enable_arrow_buttons": "0"
+        }
+    },
+    "panel": {
+        "colours": {
+            "dark_bg": "#1a1a2e",
+            "normal_border": "#303050"
+        },
+        "misc": {
+            "shape": "rounded_rectangle",
+            "shape_corner_radius": "10",
+            "border_width": "2",
+            "shadow_width": "3"
+        }
+    },
+    "text_entry_line": {
+        "colours": {
+            "dark_bg": "#15152d",
+            "normal_border": "#303050",
+            "hovered_border": "#404070",
+            "disabled_border": "#202030",
+            "selected_bg": "#204080",
+            "normal_text": "#eaeaea",
+            "selected_text": "#ffffff"
+        },
+        "misc": {
+            "shape": "rounded_rectangle",
+            "shape_corner_radius": "5",
+            "border_width": "2",
+            "shadow_width": "1",
+            "padding": "5,5"
+        }
+    }
+}
