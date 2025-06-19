@@ -1,0 +1,35 @@
+# 更新紀錄
+
+## v3.5 裝備擴充與圖標修正
+- 新增多個武器、護甲、鞋子、戒指與護符資料
+- `game/resources.py` 加入相應 emoji 圖標及備用文字
+- `game/core.py` 擴充 `GameTexts` 與 `ItemDatabase`
+- 改善圖示缺漏導致的顯示問題
+
+## v3.4 新增飾品資料
+- `game/core.py` 加入戒指與護身符資料及 `create_ring`、`create_amulet` 函式
+- `game/dungeon_map.py` 生成道具時將隨機放置戒指或護身符
+- 新增多個戒指與護身符名稱常數
+
+## v3.2 拆分粒子與存檔系統
+- 新增 `game/particles.py` 移動粒子相關類別
+- 新增 `game/save_system.py` 移動存檔邏輯
+- `1.py` 更新匯入路徑
+
+## v3.3 拆分角色、地圖與UI模組
+- 新增 `game/entities.py`、`game/dungeon_map.py`、`game/ui.py`
+- `1.py` 更新引用並移除相應程式碼
+
+## v3.1 拆分資源與教學相關模組
+- 將 FontManager 等類別抽出至 `game/resources.py`。
+- `1.py` 改以 `from game.resources import ...` 匯入相關類別。
+
+## v3.0 分割模組初版
+- 將 `1.py` 前 1170 行抽出為 `game/core.py`。
+- `1.py` 透過 `from game.core import *` 載入，功能不變。
+- 新增此更新紀錄檔，未來將持續拆分其他功能模組。
+
+## 未來規劃
+- 逐步將介面渲染、資源管理等區塊拆分為獨立檔案。
+- 補充 README 與程式碼註解，方便後續維護。
+- 考慮拆分 UI 與地圖相關模組
